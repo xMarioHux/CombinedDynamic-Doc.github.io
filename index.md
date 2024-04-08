@@ -1,8 +1,14 @@
-![Title](/title.png#pic_center)
-# 复合动力
+请选择语言 Please select a language:</br>
+<select name="language" id="language">
+    <option value="zh_CN">简体中文</option>
+    <option value="en_US">English</option>
+</select></br>
+<button id="check">OK</button>
 
-## [更新日志](/logs/index.md)
-查看每个版本的更新内容。
-
-## [接口文档](/docs/index.md)
-查看我们准备的，可以让您的自定义游戏内容接入复合动力的方式。
+<script>
+    const lang = document.getElementById("language")
+    function check(){
+        window.location.href = `./${lang.value}/index.md`;
+    }
+    button.addEventListener("check", check);
+</script>
