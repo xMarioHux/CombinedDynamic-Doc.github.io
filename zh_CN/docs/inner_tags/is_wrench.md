@@ -1,4 +1,5 @@
 # combined_dynamic:is_wrench
+[<返回](../index.md)
 
 `内置tag`
 
