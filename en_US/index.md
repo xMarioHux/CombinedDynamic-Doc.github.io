@@ -1,6 +1,7 @@
-![Title](/title.png#pic_center)
+![Title](../title.png#pic_center)
 # Combined Dynamic
 [<back](../index.md)
+
 ## [Update Log](./logs/index.md)
 查看每个版本的更新内容。
 

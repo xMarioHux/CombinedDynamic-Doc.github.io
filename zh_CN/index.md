@@ -1,4 +1,4 @@
-![Title](/title.png#pic_center)
+![Title](../title.png#pic_center)
 # 复合动力
 [<返回](../index.md)
 

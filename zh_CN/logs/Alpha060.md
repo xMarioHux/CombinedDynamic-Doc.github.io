@@ -103,7 +103,7 @@
     | time | number | 配方进行的时间，按`tick`[^3]计算 |
     | tags | Array\<string> | 配方tag，该配方可用于使用对应tag的机器 |
     | priority | number | 配方优先级，在出现多个标识符相同的配方时，将采用优先级最高的配方 |
-    | ingredients | Array\<ItemIngredient \| TagIngredient> | 配方原料 |
+    | ingredients | Array\<ItemIngredient \| TagIngredient \| Array\<ItemIngredient \| TagIngredient>> | 配方原料 |
     | results | Array\<ItemResult> | 配方结果 |
 
     其中ItemIngredient，TagIngredient与ItemResult的格式请查看文档。

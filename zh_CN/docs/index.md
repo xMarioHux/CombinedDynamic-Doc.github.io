@@ -5,11 +5,17 @@
 
 ## 内置tag
 
+这些tag可以为您的物品添加一些预设的，简单的功能。
+
 | 名称 | 描述 |
 | --- | :---: |
-| [`combined_dynamic:is_wrench`](./inner_tags/is_wrench.md) | 将物品定义为扳手 |
+| [`combined_dynamic:is_wrench`](./build_in_tags/is_wrench.md) | 将物品定义为扳手 |
 
 ## tag组件
+
+这些长得很奇怪的tag是我们为您准备的，可以将您的自定义物品兼容至我们的机器运作逻辑内的方法，我们将其称为“tag组件”。
+
+注意您应当将它们按格式写进自定义物品的`minecraft:tags`组件内，组件名和每个参数之间用`;`隔开。
 
 | 名称 | 描述 |
 | --- | :---: |
@@ -18,14 +24,18 @@
 
 ## 脚本事件
 
-| 名称 | 描述 |
-| --- | :---: |
-| `combined_dynamic:recipe_register` | 注册机器配方 |
+您可以使用游戏提供的`/scriptevent`命令向脚本层发送事件，而我们内置了一些事件可以让您更深度地自定义游戏内容。
 
-## 内置类
+每个脚本事件传输的值都应当是一个合法的JSON对象。
 
 | 名称 | 描述 |
 | --- | :---: |
-| `ItemIngredient` | 物品配方原料 |
-| `TagIngredient` | 标签配方原料 |
-| `ItemResult` | 物品配方结果 |
+| [`combined_dynamic:recipe_register`](./script_events/recipe_register.md) | 注册机器配方 |
+
+## 内置接口
+
+| 名称 | 描述 |
+| --- | :---: |
+| [`ItemIngredient`](./build_in_interfaces/item_ingtedient.md) | 物品配方原料 |
+| [`TagIngredient`](./build_in_interfaces/tag_ingtedient.md) | 标签配方原料 |
+| [`ItemResult`](./build_in_interfaces/item_result.md) | 物品配方结果 |
