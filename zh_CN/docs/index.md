@@ -9,7 +9,7 @@
 
 | 名称 | 描述 |
 | --- | :---: |
-| [`combined_dynamic:is_wrench`](./build_in_tags/is_wrench.md) | 将物品定义为扳手 |
+| [`combined_dynamic:is_wrench`](./built_in_tags/is_wrench.md) | 将物品定义为扳手 |
 
 ## tag组件
 
@@ -36,6 +36,6 @@
 
 | 名称 | 描述 |
 | --- | :---: |
-| [`ItemIngredient`](./build_in_interfaces/item_ingtedient.md) | 物品配方原料 |
-| [`TagIngredient`](./build_in_interfaces/tag_ingtedient.md) | 标签配方原料 |
-| [`ItemResult`](./build_in_interfaces/item_result.md) | 物品配方结果 |
+| [`ItemIngredient`](./built_in_interfaces/item_ingtedient.md) | 物品配方原料 |
+| [`TagIngredient`](./built_in_interfaces/tag_ingtedient.md) | 标签配方原料 |
+| [`ItemResult`](./built_in_interfaces/item_result.md) | 物品配方结果 |
